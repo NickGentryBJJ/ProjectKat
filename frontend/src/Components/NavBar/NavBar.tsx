@@ -17,10 +17,10 @@ function NavBar(props: NavProps): JSX.Element {
     return (
         <div className='nav-wrapper'>
             <div className='nav-left'>
-                <img onClick={keniBurke} src={logo} alt="Katarina Gentry" />
+                <img className='nav-logo' onClick={keniBurke} src={logo} alt="Katarina Gentry" />
             </div>
             <div className='nav-right'>
-                <img onClick={() => setOpen(!open)} src={menu} alt="menu" />
+                <img className='nav-logo' onClick={() => setOpen(!open)} src={menu} alt="menu" />
             </div>
         </div>
     );

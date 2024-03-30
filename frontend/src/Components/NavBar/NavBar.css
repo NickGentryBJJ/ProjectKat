@@ -1,0 +1,24 @@
+.nav-wrapper {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 115px;
+    background: #00b3ffe0;
+    align-items:center;
+    letter-spacing: 2px;
+    z-index:1;
+}
+.nav-logo{
+    width: 4rem;
+    cursor:  pointer; 
+}
+/* cursor should be darkened favicon when pointer. */
+.nav-right{
+    margin-right: 2%;
+}
+.nav-left{
+    margin-left: 2%;
+}
