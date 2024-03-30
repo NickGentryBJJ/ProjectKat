@@ -1,0 +1,24 @@
+#contact-section{
+    padding-top: 115px;
+}
+.footer-container{
+    display: flex;
+    background: #fab300;
+}
+.thank-you{
+    font-weight: 500;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    text-align: center;
+    line-height: 2.5;
+    color: #fff;
+}
+/* MOBILE CSS */
+@media only screen and (max-width: 768px) {
+    .thank-you{
+        font-size: 16px;
+    }
+    #contact-section{
+        padding-top: 90px;
+    }
+}
