@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	cursor: url('../public/android-chrome-512x512.png'), auto;
 }
 ol, ul {
 	list-style: none;

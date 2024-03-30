@@ -11,6 +11,5 @@ function App(): JSX.Element {
     <Footer/>
   </>
   );
-}
-
+};
 export default App;
