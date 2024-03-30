@@ -10,12 +10,7 @@ interface SideMenuProps{
 function SideMenu(props: SideMenuProps) {
     const {open, setOpen} = props;
     function scrollToPort(): void {
-        const portSection = document.getElementById('port-section');
-        if (portSection) {
-            const sectionTop = portSection.getBoundingClientRect().top + window.scrollY;
-            window.scrollTo({ top: sectionTop - 70, behavior: 'smooth' });
-            setOpen(false);
-        }
+        window.open('https://issuu.com/katarinag9/docs/issue_portfolio_view_1f96b0df227b1a', '_blank');
     }
     function scrollToGallery(): void {
         const gallerySection = document.getElementById('gallery-section');
