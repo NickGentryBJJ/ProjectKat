@@ -14,22 +14,20 @@ function NavBar(props: NavProps): JSX.Element {
         "PLANET ART WORK": "paw",
         "PACIFICA SENIOR LIVING": "psl",
         "WORK COMPLETED IN SCHOOL": "wcis"
-    }
+    };
     function keniBurke(): void { // Risin To The Top!
         const body = document.documentElement || document.body;
         body.scrollIntoView({ behavior: 'smooth', block: 'start' });
         setOpen(false);
     };
-    function handleHover(id: string): void {
-        const newSplash = document.getElementById(id);
-        if (newSplash){
-            newSplash.classList.remove("hidden");
-        };
-    };
-    function handleLeave(id:string) {
-        const pSplash = document.getElementById(id);
-        if (pSplash){
-            pSplash.classList.add("hidden");
+    function handleEvent(id:string) {
+        const splashReplacement = document.getElementById(id);
+        if (splashReplacement){
+            if (splashReplacement.classList.contains("hidden")) {
+                splashReplacement.classList.remove("hidden");
+            } else{
+                splashReplacement.classList.add("hidden");
+            };
         };
     };
     return (
@@ -40,8 +38,8 @@ function NavBar(props: NavProps): JSX.Element {
             <div className='nav-mid'>
                 {Object.entries(works).map(([name, value], index) => (
                     <div 
-                        onMouseLeave={() => handleLeave(value)} 
-                        onMouseEnter={() => handleHover(value)} 
+                        onMouseLeave={() => handleEvent(value)} 
+                        onMouseEnter={() => handleEvent(value)} 
                         key={index} 
                         className='work-item-wrapper'>
                             <h3 className='work-item'>
