@@ -6,7 +6,7 @@
     flex-direction: row;
     justify-content: space-between;
     height: 115px;
-    background: #fab300;
+    background: rgba(0, 0, 0, 0.555);
     align-items:center;
     letter-spacing: 2px;
     z-index:1;
@@ -21,4 +21,16 @@
 }
 .nav-left{
     margin-left: 2%;
+}
+.nav-mid{
+    display: flex;
+    gap: 40px;
+    align-self: self-end;
+    margin-bottom: 30px;
+}
+.work-item-wrapper{
+    cursor: pointer;
+}
+.work-item-wrapper:hover{
+    color: white;
 }
