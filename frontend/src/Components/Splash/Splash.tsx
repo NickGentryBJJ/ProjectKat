@@ -3,7 +3,7 @@ import './Splash.css';
 
 function Splash(): JSX.Element {
     return (
-        <div className='splash-wrapper'>
+        <div id='sw' className='splash-wrapper'>
             <div className='quote-wrapper'>
                 <h1 className='quote'>
                     "As designers, we learn from the ever changing world around us. We constantly evolve our actions and abilities to be continued."

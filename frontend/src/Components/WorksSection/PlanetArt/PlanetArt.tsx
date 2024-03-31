@@ -2,7 +2,7 @@ import React from 'react';
 import './PlanetArt.css'
 function PlanetArt(): JSX.Element {
     return (
-        <div>
+        <div id='paw' className='hidden'>
             hello from PlanetArt
         </div>
     );

@@ -22,11 +22,14 @@ function NavBar(props: NavProps): JSX.Element {
     };
     function handleEvent(id:string) {
         const splashReplacement = document.getElementById(id);
-        if (splashReplacement){
+        const splash = document.getElementById('sw');
+        if (splashReplacement && splash){
             if (splashReplacement.classList.contains("hidden")) {
+                splash.classList.add("hidden");
                 splashReplacement.classList.remove("hidden");
             } else{
                 splashReplacement.classList.add("hidden");
+                splash.classList.remove("hidden");
             };
         };
     };
