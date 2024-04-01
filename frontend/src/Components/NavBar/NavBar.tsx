@@ -46,9 +46,15 @@ function NavBar(props: NavProps): JSX.Element {
         }
     }
     function handleClick(set:boolean, setter:React.Dispatch<React.SetStateAction<boolean>>, id:string) {
+        const splash = document.getElementById('sw');
         const hide = document.getElementById(id);
-        hide?.classList.add("hidden")
-        setter(!set);
+        hide?.classList.add("hidden");
+        if (!set) {
+            setter(!set);
+        } else {
+            setter(!set);
+            splash?.classList.remove("hidden");
+        }
     }
     return (
         <div className='nav-wrapper'>
@@ -58,8 +64,8 @@ function NavBar(props: NavProps): JSX.Element {
             <div className='nav-mid'>
                 {Object.entries(works).map(([name, value], index) => (
                         <div 
-                        onMouseEnter={() => handleEnter(value[0], value[1])} 
-                        onMouseLeave={() => handleLeave(value[0], value[1])} 
+                            onMouseEnter={() => handleEnter(value[0], value[1])} 
+                            onMouseLeave={() => handleLeave(value[0], value[1])} 
                             onClick={() => handleClick(value[1], value[2], value[0])}
                             key={index} 
                             className='work-item-wrapper'>

@@ -58,7 +58,7 @@ function SideMenu(props: SideMenuProps) {
                     return (
                         <p key={index} onClick={value} className="header-links show">{key}</p>
                     )
-                })}
+                })} 
             </div> 
         </div>
     );
