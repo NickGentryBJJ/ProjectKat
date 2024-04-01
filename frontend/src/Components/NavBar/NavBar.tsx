@@ -7,13 +7,22 @@ interface NavProps {
     setOpen: React.Dispatch<React.SetStateAction<boolean>>;
     showCda: boolean;
     setShowCda: React.Dispatch<React.SetStateAction<boolean>>;
+    showPaw: boolean;
+    setShowPaw: React.Dispatch<React.SetStateAction<boolean>>;
+    showPsl: boolean;
+    setShowPsl: React.Dispatch<React.SetStateAction<boolean>>;
+    showSchool: boolean;
+    setShowSchool: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 function NavBar(props: NavProps): JSX.Element {
-    const {open, setOpen, showCda, setShowCda} = props;
+    const {open, setOpen, showCda, setShowCda, showPaw, setShowPaw, showPsl, setShowPsl, showSchool, setShowSchool} = props;
     const works: Record<string, [string, boolean, React.Dispatch<React.SetStateAction<boolean>>]> = {
-        "CDA WORK": ["cda", showCda, setShowCda] 
-        
+    // display name:  id -- state ---- setter 
+        "CDA WORK": ["cda", showCda, setShowCda],
+        "PLANET ART WORK": ["paw", showPaw, setShowPaw],
+        "PACIFICA SENIOR LIVING": ["psl", showPsl, setShowPsl],
+        "WORK COMPLETED IN SCHOOL": ["wcis", showSchool, setShowSchool]
     };
     
     function keniBurke(): void { // Risin To The Top!

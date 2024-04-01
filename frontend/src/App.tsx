@@ -16,11 +16,25 @@ import WsSection from './Components/WorksSection/WorkSchool/WsSection/WsSection'
 function App(): JSX.Element {
   const [open, setOpen] = useState<boolean>(false);
   const [showCda, setShowCda] = useState<boolean>(false);
+  const [showPaw, setShowPaw] = useState<boolean>(false);
+  const [showPsl, setShowPsl] = useState<boolean>(false);
+  const [showSchool, setShowSchool] = useState<boolean>(false);
   return (
   <>
-    <NavBar open={open} setOpen={setOpen} showCda={showCda} setShowCda={setShowCda}/>
+    <NavBar 
+      open={open} 
+      setOpen={setOpen} 
+      showCda={showCda} 
+      setShowCda={setShowCda} 
+      showPaw={showPaw} 
+      setShowPaw={setShowPaw}
+      showPsl={showPsl} 
+      setShowPsl={setShowPsl}
+      showSchool={showSchool} 
+      setShowSchool={setShowSchool}
+      />
     <SideMenu open={open} setOpen={setOpen}/>
-    <Splash showCda={showCda} setShowCda={setShowCda}/>
+    <Splash showCda={showCda}/>
     <PacificaSenior/>
     <PsSection/>
     <PlanetArt/>

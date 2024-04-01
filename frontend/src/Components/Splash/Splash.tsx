@@ -5,10 +5,9 @@ import CdaSection from '../WorksSection/CDA/CdaSection/CdaSection';
 
 interface SplashProps {
     showCda: boolean;
-    setShowCda: React.Dispatch<React.SetStateAction<boolean>>;
 }; 
 function Splash(props: SplashProps): JSX.Element {
-    const {showCda, setShowCda} = props;
+    const {showCda} = props;
     return (
         <div  className='splash-wrapper'>
             <div id='sw' className='quote-wrapper'>
