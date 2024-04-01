@@ -1,8 +1,14 @@
 import React from 'react';
 import './CDA.css'
-function CDA(): JSX.Element {
+
+interface CdaProps {
+    showCda: boolean;
+}
+
+function CDA(props: CdaProps): JSX.Element {
+    const {showCda} = props;
     return (
-        <div id='cda' className='hidden'>
+        <div id='cda' className={`cda-container hidden ${showCda ? "hidden" : ""}`}>
             hello from CDA
         </div>
     );

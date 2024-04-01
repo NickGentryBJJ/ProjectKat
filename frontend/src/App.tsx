@@ -15,14 +15,12 @@ import WsSection from './Components/WorksSection/WorkSchool/WsSection/WsSection'
 
 function App(): JSX.Element {
   const [open, setOpen] = useState<boolean>(false);
-  const [cda, setCda] = useState<boolean>(false);
+  const [showCda, setShowCda] = useState<boolean>(false);
   return (
   <>
-    <NavBar open={open} setOpen={setOpen}/>
+    <NavBar open={open} setOpen={setOpen} showCda={showCda} setShowCda={setShowCda}/>
     <SideMenu open={open} setOpen={setOpen}/>
-    <Splash/>
-    <CDA/>
-    <CdaSection cda={cda} setCda={setCda}/>
+    <Splash showCda={showCda} setShowCda={setShowCda}/>
     <PacificaSenior/>
     <PsSection/>
     <PlanetArt/>
