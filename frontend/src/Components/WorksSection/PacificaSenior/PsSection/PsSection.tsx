@@ -1,8 +1,14 @@
 import React from 'react';
 import './PsSection.css'
-function PsSection(): JSX.Element {
+
+interface PslProps {
+    showPsl: boolean;
+}
+
+function PsSection(props: PslProps): JSX.Element {
+    const {showPsl} = props;
     return (
-        <div id='ps-section' className='hidden'>
+        <div id='ps-section' className={`ps-section-container ${showPsl ? "show" : ""}`}>
             hello from PsSection
         </div>
     );

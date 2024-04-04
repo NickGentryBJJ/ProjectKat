@@ -24,7 +24,6 @@ function NavBar(props: NavProps): JSX.Element {
         "PACIFICA SENIOR LIVING": ["psl", showPsl, setShowPsl],
         "WORK COMPLETED IN SCHOOL": ["wcis", showSchool, setShowSchool]
     };
-    
     function keniBurke(): void { // Risin To The Top!
         const body = document.documentElement || document.body;
         body.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -68,7 +67,8 @@ function NavBar(props: NavProps): JSX.Element {
     return (
         <div className='nav-wrapper'>
             <div className='nav-left'>
-                <img className='nav-logo' onClick={keniBurke} src={logo} alt="Katarina Gentry" />
+                <h1>Katarina Gentry,</h1><br/>
+                <span>Graphic Designer</span>
             </div>
             <div className='nav-mid'>
                 {Object.entries(works).map(([name, value], index) => (

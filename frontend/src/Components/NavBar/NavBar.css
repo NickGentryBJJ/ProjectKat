@@ -6,7 +6,6 @@
     flex-direction: row;
     justify-content: space-between;
     height: 115px;
-    background: rgba(0, 0, 0, 0.555);
     align-items:center;
     letter-spacing: 2px;
     z-index:1;
@@ -33,4 +32,9 @@
 }
 .work-item-wrapper:hover{
     color: white;
+}
+.work-item{
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }

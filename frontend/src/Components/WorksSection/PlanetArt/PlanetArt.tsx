@@ -1,8 +1,14 @@
 import React from 'react';
 import './PlanetArt.css'
-function PlanetArt(): JSX.Element {
+
+interface PlanetProps {
+    showPaw: boolean;
+}
+
+function PlanetArt(props: PlanetProps): JSX.Element {
+    const {showPaw} = props;
     return (
-        <div id='paw' className='hidden'>
+        <div id='paw' className={`paw-container hidden ${showPaw ? "hidden" : ""}`}>
             hello from PlanetArt
         </div>
     );

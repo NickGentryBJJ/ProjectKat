@@ -34,11 +34,7 @@ function App(): JSX.Element {
       setShowSchool={setShowSchool}
       />
     <SideMenu open={open} setOpen={setOpen}/>
-    <Splash showCda={showCda}/>
-    <PacificaSenior/>
-    <PsSection/>
-    <PlanetArt/>
-    <PaSection/>
+    <Splash showPsl={showPsl} showCda={showCda} showPaw={showPaw}/>
     <WorkSchool/>
     <WsSection/>
     <Gallery/>

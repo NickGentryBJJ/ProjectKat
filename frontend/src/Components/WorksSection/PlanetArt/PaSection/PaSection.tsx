@@ -1,8 +1,14 @@
 import React from 'react';
 import './PaSection.css'
-function PaSection(): JSX.Element {
+
+interface PlanetProps {
+    showPaw: boolean;
+}
+
+function PaSection(props: PlanetProps): JSX.Element {
+    const {showPaw} = props;
     return (
-        <div id='pa-section' className='hidden'>
+        <div id='pa-section' className={`paw-section-container ${showPaw ? "show" : ""}`}>
             hello from PaSection
         </div>
     );
