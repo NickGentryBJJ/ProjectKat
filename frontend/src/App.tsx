@@ -3,6 +3,7 @@ import Splash from './Components/Splash/Splash';
 import Footer from './Components/Footer/Footer';
 import NavBar from './Components/NavBar/NavBar';
 import Gallery from './Components/Gallery/Gallery';
+import TopBar from './Components/TopBar/TopBar';
 
 function App(): JSX.Element {
   const [showCda, setShowCda] = useState<boolean>(false);
@@ -11,6 +12,7 @@ function App(): JSX.Element {
   const [showSchool, setShowSchool] = useState<boolean>(false);
   return (
     <>
+    <TopBar/>
     <Splash showPsl={showPsl} showCda={showCda} showPaw={showPaw} showSchool={showSchool}/>
     <NavBar 
       showCda={showCda} 
