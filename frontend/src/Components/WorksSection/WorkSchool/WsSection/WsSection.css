@@ -1,0 +1,8 @@
+.school-section-container{
+    opacity: 0;
+    transform: translatey(100%);
+}
+.school-section-container.show{
+    opacity: 1; 
+    transform: translatey(0);
+}

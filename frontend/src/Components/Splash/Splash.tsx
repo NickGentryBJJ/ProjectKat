@@ -6,14 +6,17 @@ import PacificaSenior from '../WorksSection/PacificaSenior/PacificaSenior';
 import PsSection from '../WorksSection/PacificaSenior/PsSection/PsSection';
 import PlanetArt from '../WorksSection/PlanetArt/PlanetArt';
 import PaSection from '../WorksSection/PlanetArt/PaSection/PaSection';
+import WsSection from '../WorksSection/WorkSchool/WsSection/WsSection';
+import WorkSchool from '../WorksSection/WorkSchool/WorkSchool';
 
 interface SplashProps {
     showCda: boolean;
     showPsl: boolean;
     showPaw: boolean;
+    showSchool: boolean;
 }; 
 function Splash(props: SplashProps): JSX.Element {
-    const {showCda, showPsl, showPaw} = props;
+    const {showCda, showPsl, showPaw, showSchool} = props;
     return (
         <div  className='splash-wrapper'>
             <div id='sw' className='quote-wrapper'>
@@ -35,6 +38,10 @@ function Splash(props: SplashProps): JSX.Element {
             <div className='pa-wrapper'>
                 <PlanetArt showPaw={showPaw}/>
                 <PaSection showPaw={showPaw}/>
+            </div>
+            <div className='school-wrapper'>
+                <WsSection showSchool={showSchool}/>
+                <WorkSchool showSchool={showSchool}/>
             </div>
         </div>
     );

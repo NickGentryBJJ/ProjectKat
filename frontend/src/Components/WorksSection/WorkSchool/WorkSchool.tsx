@@ -1,8 +1,14 @@
 import React from 'react';
 import './WorkSchool.css'
-function WorkSchool(): JSX.Element {
+
+interface WorkProps {
+    showSchool: boolean;
+}
+
+function WorkSchool(props: WorkProps): JSX.Element {
+    const {showSchool} = props;
     return (
-        <div id='wcis' className='hidden'>
+        <div id='wcis' className={`cda-container hidden ${showSchool ? "hidden" : ""}`}>
             hello from WorkSchool
         </div>
     );
