@@ -1,5 +1,6 @@
 .splash-wrapper {
     padding-top: 90px;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;

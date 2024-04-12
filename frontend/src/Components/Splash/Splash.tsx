@@ -1,22 +1,8 @@
 import React from 'react';
 import './Splash.css';
-import CDA from '../WorksSection/CDA/CDA';
-import CdaSection from '../WorksSection/CDA/CdaSection/CdaSection';
-import PacificaSenior from '../WorksSection/PacificaSenior/PacificaSenior';
-import PsSection from '../WorksSection/PacificaSenior/PsSection/PsSection';
-import PlanetArt from '../WorksSection/PlanetArt/PlanetArt';
-import PaSection from '../WorksSection/PlanetArt/PaSection/PaSection';
-import WsSection from '../WorksSection/WorkSchool/WsSection/WsSection';
-import WorkSchool from '../WorksSection/WorkSchool/WorkSchool';
 
-interface SplashProps {
-    showCda: boolean;
-    showPsl: boolean;
-    showPaw: boolean;
-    showSchool: boolean;
-}; 
-function Splash(props: SplashProps): JSX.Element {
-    const {showCda, showPsl, showPaw, showSchool} = props;
+
+function Splash(): JSX.Element {
     return (
         <div  className='splash-wrapper'>
             <div id='sw' className='quote-wrapper'>
@@ -26,22 +12,6 @@ function Splash(props: SplashProps): JSX.Element {
                 </p><br/>
                     <p className='author'>&nbsp;-Katarina Gentry&nbsp;</p>
                 </h1>
-            </div>
-            <div className='cda-wrapper'>
-                <CDA showCda={showCda}/>
-                <CdaSection showCda={showCda}/>
-            </div>
-            <div className='psl-wrapper'>
-                <PacificaSenior showPsl={showPsl}/>
-                <PsSection showPsl={showPsl}/>
-            </div>
-            <div className='pa-wrapper'>
-                <PlanetArt showPaw={showPaw}/>
-                <PaSection showPaw={showPaw}/>
-            </div>
-            <div className='school-wrapper'>
-                <WsSection showSchool={showSchool}/>
-                <WorkSchool showSchool={showSchool}/>
             </div>
         </div>
     );
