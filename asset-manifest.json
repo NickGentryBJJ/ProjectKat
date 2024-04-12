@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ProjectKat/static/css/main.97bdc3ed.css",
+    "main.js": "/ProjectKat/static/js/main.cf98ad1a.js",
+    "static/media/android-chrome-512x512.png": "/ProjectKat/static/media/android-chrome-512x512.161264063885a22d1b1e.png",
+    "index.html": "/ProjectKat/index.html",
+    "main.97bdc3ed.css.map": "/ProjectKat/static/css/main.97bdc3ed.css.map",
+    "main.cf98ad1a.js.map": "/ProjectKat/static/js/main.cf98ad1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97bdc3ed.css",
+    "static/js/main.cf98ad1a.js"
+  ]
+}
