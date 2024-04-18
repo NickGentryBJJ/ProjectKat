@@ -7,6 +7,9 @@
 .left-bar{
     margin-left: 5%;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .right-bar{
     margin-right: 5%;
