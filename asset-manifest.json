@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/ProjectKat/static/css/main.8d087e88.css",
-    "main.js": "/ProjectKat/static/js/main.22bbc3f0.js",
+    "main.css": "/ProjectKat/static/css/main.0122ea4a.css",
+    "main.js": "/ProjectKat/static/js/main.43dd027b.js",
     "static/media/android-chrome-512x512.png": "/ProjectKat/static/media/android-chrome-512x512.161264063885a22d1b1e.png",
+    "static/media/close.png": "/ProjectKat/static/media/close.72401139f5804d7cc0ac.png",
     "index.html": "/ProjectKat/index.html",
-    "main.8d087e88.css.map": "/ProjectKat/static/css/main.8d087e88.css.map",
-    "main.22bbc3f0.js.map": "/ProjectKat/static/js/main.22bbc3f0.js.map"
+    "main.0122ea4a.css.map": "/ProjectKat/static/css/main.0122ea4a.css.map",
+    "main.43dd027b.js.map": "/ProjectKat/static/js/main.43dd027b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d087e88.css",
-    "static/js/main.22bbc3f0.js"
+    "static/css/main.0122ea4a.css",
+    "static/js/main.43dd027b.js"
   ]
 }
