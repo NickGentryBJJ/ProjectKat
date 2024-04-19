@@ -1,0 +1,16 @@
+.main-cda-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: 15%;
+    padding: 5%;
+    background-color: white;
+}
+.cda-pop{
+    width: 20rem;
+}
+.cda-pop-text-wrap{
+    margin-left: 5%;
+}
