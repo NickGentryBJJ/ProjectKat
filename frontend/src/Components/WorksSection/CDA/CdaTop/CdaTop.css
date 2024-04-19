@@ -1,0 +1,13 @@
+.cda-box{
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 7px;
+    color: white;
+    background: black;
+    line-height: 1.5;
+}
+.top-cda{
+    display: flex;
+    justify-content: space-around;
+}

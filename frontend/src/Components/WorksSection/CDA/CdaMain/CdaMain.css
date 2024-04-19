@@ -3,9 +3,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-color: gold;
+}
+.main-cda-container{
+    margin-left: 17%;
     width: 60%;
-    margin-left: 15%;
-    padding: 5%;
+    padding: 3%;
     background-color: white;
 }
 .cda-pop{
@@ -13,4 +18,16 @@
 }
 .cda-pop-text-wrap{
     margin-left: 5%;
+}
+.cda-cross, .cda-arrow{
+    width: 2rem;
+}
+.cda-icons{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-self: baseline;
+    gap: 100px;
 }
