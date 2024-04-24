@@ -10,7 +10,6 @@ interface Project {
     desc: string;
     image: string;
 }
-
 interface WorkProps {
     cdaPop: boolean;
     setCdaPop: React.Dispatch<React.SetStateAction<boolean>>;
@@ -24,10 +23,11 @@ interface WorkProps {
 
 function WorkPop(props: WorkProps): JSX.Element {
     const { cdaPop, setCdaPop, pacificPop, setPacificPop, schoolPop, setSchoolPop, planetPop, setPlanetPop } = props;
-    const works: Record<string, { date: string; name: string; projects: Project[] }> = {
+    const works: Record<string, { date: string; name: string; setter: React.Dispatch<React.SetStateAction<boolean>>; projects: Project[] }> = {
         "cdaPop": {
             "date": "2019-2021",
             "name": "Creative Digital Agency",
+            "setter": setCdaPop,
             "projects": [
                 {
                     "title": "Project Name",
@@ -44,6 +44,7 @@ function WorkPop(props: WorkProps): JSX.Element {
         "pacificaPop": {
             "date": "2019-2021",
             "name": "Pacifica Companies",
+            "setter": setPacificPop,
             "projects": [
                 {
                     "title": "Project Name",
@@ -60,6 +61,7 @@ function WorkPop(props: WorkProps): JSX.Element {
         "schoolPop": {
             "date": "2019-2021",
             "name": "School Work",
+            "setter": setSchoolPop,
             "projects": [
                 {
                     "title": "Project Name",
@@ -76,6 +78,7 @@ function WorkPop(props: WorkProps): JSX.Element {
         "planetPop": {
             "date": "2019-2021",
             "name": "Planet Art",
+            "setter": setPlanetPop,
             "projects": [
                 {
                     "title": "Project Name",
@@ -96,7 +99,7 @@ function WorkPop(props: WorkProps): JSX.Element {
     const renderPop = (popKey: string) => {
         const popData = getPopData(popKey);
         if (!popData) return <div></div>;
-        const { date, name, projects } = popData;
+        const { date, name, setter, projects } = popData;
         return (
             <div id={popKey} className='main-cda-container'>
                 <div className='main-cda-wrapper'>
@@ -105,10 +108,10 @@ function WorkPop(props: WorkProps): JSX.Element {
                     ))}
                     <div className='cda-icons'>
                         <div>
-                            <img className='cda-cross' src={cross} alt="" />
+                            <img className='cda-cross' src={cross} alt="Close" onClick={() => (setter(false))}/>
                         </div>
                         <div>
-                            <img className='cda-arrow' src={arrow} alt="" />
+                            <img className='cda-arrow' src={arrow} alt="Next" />
                         </div>
                     </div>
                 </div>
@@ -125,7 +128,6 @@ function WorkPop(props: WorkProps): JSX.Element {
             </div>
         );
     };
-
     if (cdaPop) {
         return renderPop("cdaPop");
     } else if (pacificPop) {
@@ -138,5 +140,4 @@ function WorkPop(props: WorkProps): JSX.Element {
         return <div></div>; 
     }
 }
-
 export default WorkPop;
