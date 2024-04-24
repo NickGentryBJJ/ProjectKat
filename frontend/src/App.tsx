@@ -7,13 +7,25 @@ import WorkPop from './Components/WorksSection/WorkPop/WorkPop';
 
 function App(): JSX.Element {
   const [cdaPop, setCdaPop] = useState<boolean>(false);
+  const [pacificaPop, setPacificaPop] = useState<boolean>(false);
+  const [schoolPop, setSchoolPop] = useState<boolean>(false);
+  const [planetPop, setPlanetPop] = useState<boolean>(false);
 
   return (
     <>
     <TopBar/>
     <Splash/>
     <NavBar/>
-    <WorkPop cdaPop={cdaPop} setCdaPop={setCdaPop}/>
+    <WorkPop 
+      cdaPop={cdaPop} 
+      setCdaPop={setCdaPop}
+      pacificPop={pacificaPop}
+      setPacificPop={setPacificaPop}
+      schoolPop={schoolPop}
+      setSchoolPop={setSchoolPop}
+      planetPop={planetPop}
+      setPlanetPop={setPlanetPop}
+    />
     <Footer/>
   </>
   );
