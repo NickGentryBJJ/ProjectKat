@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ProjectKat/static/css/main.6a41e83d.css",
+    "main.css": "/ProjectKat/static/css/main.19ee03c0.css",
     "main.js": "/ProjectKat/static/js/main.8c4e7d00.js",
     "static/media/takecare.gif": "/ProjectKat/static/media/takecare.37f72b872857f8acd63b.gif",
     "static/media/Business_Card_Mockup_3.jpg": "/ProjectKat/static/media/Business_Card_Mockup_3.3a84f660de418e9bb9e4.jpg",
@@ -18,11 +18,11 @@
     "static/media/github_2111425.png": "/ProjectKat/static/media/github_2111425.d3263084234dc705b2ae.png",
     "static/media/close.png": "/ProjectKat/static/media/close.72401139f5804d7cc0ac.png",
     "index.html": "/ProjectKat/index.html",
-    "main.6a41e83d.css.map": "/ProjectKat/static/css/main.6a41e83d.css.map",
+    "main.19ee03c0.css.map": "/ProjectKat/static/css/main.19ee03c0.css.map",
     "main.8c4e7d00.js.map": "/ProjectKat/static/js/main.8c4e7d00.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a41e83d.css",
+    "static/css/main.19ee03c0.css",
     "static/js/main.8c4e7d00.js"
   ]
 }
