@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/ProjectKat/static/css/main.f6759cae.css",
-    "main.js": "/ProjectKat/static/js/main.a56c3254.js",
+    "main.css": "/ProjectKat/static/css/main.6a41e83d.css",
+    "main.js": "/ProjectKat/static/js/main.8c4e7d00.js",
+    "static/media/takecare.gif": "/ProjectKat/static/media/takecare.37f72b872857f8acd63b.gif",
+    "static/media/Business_Card_Mockup_3.jpg": "/ProjectKat/static/media/Business_Card_Mockup_3.3a84f660de418e9bb9e4.jpg",
+    "static/media/BixbyKnolls_RackCard.jpg": "/ProjectKat/static/media/BixbyKnolls_RackCard.647a64815ef41682c6cd.jpg",
+    "static/media/Stack_Brochure_Mockup_4.jpg": "/ProjectKat/static/media/Stack_Brochure_Mockup_4.4d83a9d20e9d47d8d5ba.jpg",
+    "static/media/Amara_logos.jpg": "/ProjectKat/static/media/Amara_logos.e89a1ccc057b1bf22207.jpg",
+    "static/media/BixbyKnolls_1.jpg": "/ProjectKat/static/media/BixbyKnolls_1.9c08426eb4625e7595a5.jpg",
+    "static/media/sunCityGardenLogo.jpg": "/ProjectKat/static/media/sunCityGardenLogo.334878e6b105b9c12faa.jpg",
+    "static/media/AuburnRavineTerrace_logo.jpg": "/ProjectKat/static/media/AuburnRavineTerrace_logo.dc757e2448a27576c7ca.jpg",
+    "static/media/BayTowersBixbyKnoll_logo.jpg": "/ProjectKat/static/media/BayTowersBixbyKnoll_logo.aeb1ec8f32aa54ff76e1.jpg",
+    "static/media/BixbyKnolls_2.jpg": "/ProjectKat/static/media/BixbyKnolls_2.87bd33154d3c502826d9.jpg",
+    "static/media/ColonialHeightsLogo.jpg": "/ProjectKat/static/media/ColonialHeightsLogo.39c60fa4ed3a381c49b2.jpg",
+    "static/media/Trevi_winery.jpg": "/ProjectKat/static/media/Trevi_winery.f72868b8867706a531d6.jpg",
     "static/media/android-chrome-512x512.png": "/ProjectKat/static/media/android-chrome-512x512.161264063885a22d1b1e.png",
     "static/media/github_2111425.png": "/ProjectKat/static/media/github_2111425.d3263084234dc705b2ae.png",
     "static/media/close.png": "/ProjectKat/static/media/close.72401139f5804d7cc0ac.png",
     "index.html": "/ProjectKat/index.html",
-    "main.f6759cae.css.map": "/ProjectKat/static/css/main.f6759cae.css.map",
-    "main.a56c3254.js.map": "/ProjectKat/static/js/main.a56c3254.js.map"
+    "main.6a41e83d.css.map": "/ProjectKat/static/css/main.6a41e83d.css.map",
+    "main.8c4e7d00.js.map": "/ProjectKat/static/js/main.8c4e7d00.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6759cae.css",
-    "static/js/main.a56c3254.js"
+    "static/css/main.6a41e83d.css",
+    "static/js/main.8c4e7d00.js"
   ]
 }
