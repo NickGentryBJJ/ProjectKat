@@ -47,3 +47,8 @@
     background: black;
     line-height: 1.5;
 }
+.work-item:hover{
+    transition: 0.5s;
+    background: #fab300;
+    color: black;
+}
