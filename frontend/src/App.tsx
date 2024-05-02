@@ -4,6 +4,7 @@ import Footer from './Components/Footer/Footer';
 import NavBar from './Components/NavBar/NavBar';
 import TopBar from './Components/TopBar/TopBar';
 import WorkPop from './Components/WorksSection/WorkPop/WorkPop';
+import WorkSplash from './Components/WorksSection/WorkSplash/WorkSplash';
 
 function App(): JSX.Element {
   const [cdaPop, setCdaPop] = useState<boolean>(false);
@@ -16,6 +17,7 @@ function App(): JSX.Element {
     <TopBar/>
     <Splash/>
     <NavBar/>
+    <WorkSplash/>
     <WorkPop 
       cdaPop={cdaPop} 
       setCdaPop={setCdaPop}

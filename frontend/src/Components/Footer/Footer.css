@@ -4,6 +4,7 @@
 .footer-container{
     display: flex;
     background: #fab300;
+    justify-content: space-between;
 }
 .thank-you{
     font-weight: 500;

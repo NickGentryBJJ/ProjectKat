@@ -33,11 +33,6 @@ function WorkPop(props: WorkProps): JSX.Element {
                     "title": "Project Name",
                     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In tenetur corporis, consectetur aliquid perspiciatis totam. Assumenda velit cupiditate quod! Ut quam consequatur exercitationem nemo mollitia optio incidunt labore velit harum.",
                     "image": image
-                },
-                {
-                    "title": "Project Name",
-                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In tenetur corporis, consectetur aliquid perspiciatis totam. Assumenda velit cupiditate quod! Ut quam consequatur exercitationem nemo mollitia optio incidunt labore velit harum.",
-                    "image": image
                 }
             ]
         },
@@ -128,7 +123,7 @@ function WorkPop(props: WorkProps): JSX.Element {
             </div>
         );
     };
-    if (cdaPop) {
+    if (!cdaPop) {
         return renderPop("cdaPop");
     } else if (pacificPop) {
         return renderPop("pacificaPop");

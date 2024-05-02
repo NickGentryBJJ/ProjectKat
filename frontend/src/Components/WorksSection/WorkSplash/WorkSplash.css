@@ -1,0 +1,22 @@
+.work-top{
+    display: flex;
+}
+.work-top-side{
+    width: 40%;
+}
+.work-top-corner{
+    width: 60%;
+}
+.stacked-work{
+    width: 70%;
+}
+.work-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.work-anchor{
+    width: 70%;
+}
