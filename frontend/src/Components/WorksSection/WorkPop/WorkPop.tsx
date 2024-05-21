@@ -2,7 +2,7 @@ import React from 'react';
 import './WorkPop.css';
 import image from '../../../Images/linkedin_1384088.png';
 import cross from "../../../Images/close.png";
-import arrow from "../../../Images/close.png";
+import arrow from "../../../Images/arrow.png";
 import WorkProject from './WorkProject/WorkProject';
 
 interface Project {
@@ -123,7 +123,7 @@ function WorkPop(props: WorkProps): JSX.Element {
             </div>
         );
     };
-    if (!cdaPop) {
+    if (cdaPop) {
         return renderPop("cdaPop");
     } else if (pacificPop) {
         return renderPop("pacificaPop");
