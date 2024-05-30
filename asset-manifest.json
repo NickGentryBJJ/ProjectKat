@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProjectKat/static/css/main.8cee7230.css",
-    "main.js": "/ProjectKat/static/js/main.31a24764.js",
+    "main.css": "/ProjectKat/static/css/main.bf8ee56c.css",
+    "main.js": "/ProjectKat/static/js/main.6c82ffd8.js",
     "static/media/takecare.gif": "/ProjectKat/static/media/takecare.37f72b872857f8acd63b.gif",
     "static/media/camp.jpg": "/ProjectKat/static/media/camp.b0eb1c33fcd0e4ad9113.jpg",
     "static/media/postcard.jpg": "/ProjectKat/static/media/postcard.e1ed84e95a8ceb48b733.jpg",
@@ -20,11 +20,11 @@
     "static/media/android-chrome-512x512.png": "/ProjectKat/static/media/android-chrome-512x512.161264063885a22d1b1e.png",
     "static/media/github_2111425.png": "/ProjectKat/static/media/github_2111425.d3263084234dc705b2ae.png",
     "index.html": "/ProjectKat/index.html",
-    "main.8cee7230.css.map": "/ProjectKat/static/css/main.8cee7230.css.map",
-    "main.31a24764.js.map": "/ProjectKat/static/js/main.31a24764.js.map"
+    "main.bf8ee56c.css.map": "/ProjectKat/static/css/main.bf8ee56c.css.map",
+    "main.6c82ffd8.js.map": "/ProjectKat/static/js/main.6c82ffd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cee7230.css",
-    "static/js/main.31a24764.js"
+    "static/css/main.bf8ee56c.css",
+    "static/js/main.6c82ffd8.js"
   ]
 }
